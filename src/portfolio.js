@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/hassanmujtaba22",
-  linkedin: "https://www.linkedin.com/in/hassan-mujtaba-123a8a181/",
+  linkedin: "https://www.linkedin.com/in/web-mobile-developer-expert/",
   gmail: "dev.hassanmujtaba@gmail.com",
   gitlab: "https://gitlab.com/dev.hassanmujtaba",
   facebook: "https://www.facebook.com/dev.hassanmujtaba/",
@@ -127,6 +127,14 @@ const educationInfo = {
       duration: "February 2018 - December 2021",
       desc: "",
       descBullets: []
+    },
+    {
+      schoolName: "PIAIC",
+      logo: require("./assets/images/piaic.svg"),
+      subHeader: "Blockchain",
+      duration: "June 2022 - Continue...",
+      desc: "",
+      descBullets: []
     }
   ]
 };
@@ -147,6 +155,10 @@ const techStack = {
     {
       Stack: "Programming",
       progressPercentage: "60%"
+    },
+    {
+      Stack: "Cloud Computing",
+      progressPercentage: "40%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -161,7 +173,7 @@ const workExperiences = {
       role: "Front-end Developer",
       company: "The Hashtag Digital",
       companylogo: require("./assets/images/hashtag.jpeg"),
-      date: "February 2021 – Present",
+      date: "February 2021 – June 2022",
       desc: "",
       descBullets: []
     },
@@ -186,6 +198,14 @@ const workExperiences = {
       company: "SolutionDot",
       companylogo: require("./assets/images/SolutionDot.jpeg"),
       date: "November 2021 – Present",
+      desc: "",
+      descBullets: []
+    },
+    {
+      role: "Full Stack Developer",
+      company: "Panacloud",
+      companylogo: require("./assets/images/Panacloud.jpeg"),
+      date: "july 2022 – Present",
       desc: "",
       descBullets: []
     }
@@ -234,6 +254,26 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://www.bigboxsouq.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/bmt.png"),
+      projectName: "Build My Token",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://buildmytoken.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/edudemic.png"),
+      projectName: "Edudemic",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.edudemicapp.com/"
         }
       ]
     }
